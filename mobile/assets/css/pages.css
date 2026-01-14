@@ -445,38 +445,6 @@ body, #container-wrap { background:transparent; }
 .page-scale-wrap { width:375px; height:812px; background: transparent !important; }
 .paper-vertical { width:375px; height:100%; }
 .paper-horizontal { width:16555px; height:824px; }
-/* ColorBox Core Style:The following CSS is consistent between example themes and should not be altered. */
-#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}
-#cboxOverlay{position:fixed; width:100%; height:100%;}
-#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
-#cboxContent{position:relative;}
-#cboxLoadedContent{overflow:auto; -webkit-overflow-scrolling:touch;}
-#cboxTitle{margin:0;}
-#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%; height:100%;}
-#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
-.cboxPhoto{float:left; margin:auto; border:0; display:block; max-width:none;}
-.cboxIframe{width:100%; height:100%; display:block; border:0;}
-#colorbox, #cboxContent, #cboxLoadedContent{box-sizing:content-box;}
-/* Colorbox User Style: */
-#colorbox{
-	border-radius:12px;
-    box-shadow:0 0 10px 10px #CCCCCC;
-}
-    #colorbox, #cboxOverlay, #cboxContent, .cboxIframe, #cboxLoadedContent, #cboxLoadingOverlay { background:#fff; }
-    #cboxContent{ overflow:hidden;}
-    #cboxMiddleLeft, #cboxMiddleRight { width:8px; }
-    #cboxTopCenter{ height:24px; } 
-    #cboxBottomCenter { height:8px; }
-	#cboxError{padding:50px;}
-	#cboxLoadedContent{margin-top:28px;}
-	#cboxTitle, #cboxCurrent { position:absolute; top:4px; left:0; color:#949494; }
-	#cboxTitle{ text-align:center; width:100%; }
-	#cboxSlideshow{position:absolute; bottom:4px; right:30px; color:#0092ef;}
-	#cboxPrevious, #cboxNext { position:absolute; top:50%; margin-top:-32px; width:33px; height:65px; text-indent:-9999px;}
-	#cboxPrevious{left:0px; background:url(../images/lb_controls.png) no-repeat top left; }
-	#cboxNext{right:0px; background:url(../images/lb_controls.png) no-repeat top right; }
-	#cboxLoadingGraphic{background:url(../images/loading.gif) no-repeat center center;}
-	#cboxClose{position:absolute; top:2px; right:0px; display:block; background:url(../images/lb_controls.png) no-repeat top center; width:26px; height:24px; text-indent:-9999px;}
 @media all and (max-height:812px) {
 	.paper-horizontal { margin:0;top:0;}
 	#container > .page { margin:0 auto;}/*pos top for webkit+baker*/
@@ -539,6 +507,11 @@ body, #container-wrap { background:transparent; }
 	-webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+@font-face {
+	font-family:FF-FontAwesome6Brands-Regular;
+	src:url("../fonts/Font Awesome 6 Brands-Regular-400.otf");
+}
+
 @font-face {
 	font-family:FF-minilineicons;
 	src:url("../fonts/minilineicons.ttf");
@@ -664,16 +637,16 @@ to{}	}
 
 #item694 {
 	width:262px !important;
-	height:50px !important;
+	height:104px !important;
 	left:57px !important;
-	top:742px !important;
+	top:670px !important;
 }
 
 #item716 {
 	width:220px !important;
-	height:181px !important;
+	height:165px !important;
 	left:78px !important;
-	top:537px !important;
+	top:484px !important;
 }
 
 #item736 {
@@ -684,59 +657,60 @@ to{}	}
 
 #item774 {
 	width:375px !important;
-	height:1224px !important;
+	height:1567px !important;
+	left:-1px !important;
 	background:#f1e1bb;
 }
 
 #item794 {
 	width:262px !important;
-	height:1064px !important;
-	left:56px !important;
+	height:1422px !important;
+	left:57px !important;
 	top:90px !important;
 }
 
 #item813 {
 	width:375px !important;
-	height:4533px !important;
+	height:5919px !important;
 	background:#f1e1bb;
 }
 
 #item833 {
 	width:262px !important;
-	height:4370px !important;
+	height:5796px !important;
 	left:57px !important;
 	top:90px !important;
 }
 
 #item852 {
 	width:375px !important;
-	height:1141px !important;
+	height:1384px !important;
 	background:#f1e1bb;
 }
 
 #item872 {
 	width:262px !important;
-	height:999px !important;
+	height:1272px !important;
 	left:57px !important;
 	top:90px !important;
 }
 
 #item891 {
 	width:375px !important;
-	height:829px !important;
+	height:1037px !important;
 	background:#f1e1bb;
 }
 
 #item911 {
 	width:262px !important;
-	height:663px !important;
+	height:840px !important;
 	left:57px !important;
 	top:90px !important;
 }
 
 #item961 {
 	width:375px !important;
-	height:4495px !important;
+	height:5897px !important;
 	background:#f1e1bb;
 }
 
@@ -748,7 +722,7 @@ to{}	}
 
 #item989 {
 	width:262px !important;
-	height:4291px !important;
+	height:5708px !important;
 	left:57px !important;
 	top:136px !important;
 }
@@ -789,80 +763,80 @@ to{}	}
 	border:solid 2.772px #000;
 }
 
-#item1059 {
-	width:375px !important;
-	height:8427px !important;
-	background:#f1e1bb;
-}
-
-#item1079 {
-	width:262px !important;
-	height:8259px !important;
-	left:57px !important;
-	top:136px !important;
-}
-
 #item1098 {
 	width:375px !important;
-	height:5510px !important;
+	height:11041px !important;
 	background:#f1e1bb;
 }
 
 #item1118 {
 	width:262px !important;
-	height:5319px !important;
+	height:10862px !important;
 	left:57px !important;
 	top:136px !important;
 }
 
-#item1137 {
+#item1235 {
 	width:375px !important;
-	height:2488px !important;
+	height:6986px !important;
 	background:#f1e1bb;
 }
 
-#item1145 {
+#item1255 {
+	width:262px !important;
+	height:6776px !important;
+	left:57px !important;
+	top:136px !important;
+}
+
+#item1274 {
+	width:375px !important;
+	height:3229px !important;
+	background:#f1e1bb;
+}
+
+#item8643 {
 	width:375px !important;
 	height:495px !important;
 	background:#f1e1bb;
 }
 
-#item1165 {
+#item1294 {
 	width:262px !important;
-	height:2319px !important;
+	height:3019px !important;
 	left:57px !important;
 	top:136px !important;
 }
 
-#item1170 {
+#item8592 {
 	width:176px !important;
 	height:86px !important;
 	border-radius:28px;
 	background:#f7f5f4;
 }
 
-#item1171 {
+#item8593 {
 	width:34px !important;
 	height:34px !important;
 	left:23px !important;
 	top:43px !important;
 }
 
-#item1182 {
+#item8604 {
 	width:34px !important;
 	height:34px !important;
 	left:120px !important;
 	top:43px !important;
 }
 
-#item1193 {
+#item8616 {
 	width:34px !important;
 	height:34px !important;
 	left:71px !important;
 	top:43px !important;
 }
 
-#item1213 {
+#item8637 {
 	width:7px !important;
 	height:10px !important;
 	top:16px !important;
@@ -870,41 +844,15 @@ to{}	}
 	border:solid 2.52px #000;
 }
 
-#item1235 {
-	width:375px !important;
-	height:1940px !important;
-	background:#f1e1bb;
-}
-
-#item1255 {
-	width:262px !important;
-	height:1732px !important;
-	left:57px !important;
-	top:136px !important;
-}
-
-#item1274 {
-	width:375px !important;
-	height:6132px !important;
-	background:#f1e1bb;
-}
-
-#item1294 {
-	width:262px !important;
-	height:5926px !important;
-	left:57px !important;
-	top:136px !important;
-}
-
 #item1313 {
 	width:375px !important;
-	height:5911px !important;
+	height:2391px !important;
 	background:#f1e1bb;
 }
 
 #item1333 {
 	width:262px !important;
-	height:5698px !important;
+	height:2182px !important;
 	left:57px !important;
 	top:136px !important;
 }
@@ -915,35 +863,23 @@ to{}	}
 	background:#f1e1bb;
 }
 
-#item1372 {
-	width:262px !important;
-	height:2342px !important;
-	left:57px !important;
-	top:136px !important;
-}
-
 #item1391 {
 	width:375px !important;
 	height:3420px !important;
+	top:2535px !important;
 	background:#f1e1bb;
-}
-
-#item1411 {
-	width:262px !important;
-	height:3212px !important;
-	left:57px !important;
-	top:136px !important;
 }
 
 #item1430 {
 	width:375px !important;
-	height:3450px !important;
+	height:2103px !important;
+	top:5955px !important;
 	background:#f1e1bb;
 }
 
-#item1450 {
+#item1372 {
 	width:262px !important;
-	height:3241px !important;
+	height:7843px !important;
 	left:57px !important;
 	top:136px !important;
 }
@@ -954,61 +890,54 @@ to{}	}
 	background:#f1e1bb;
 }
 
-#item1489 {
-	width:262px !important;
-	height:3832px !important;
-	left:57px !important;
-	top:88px !important;
-}
-
 #item1508 {
 	width:375px !important;
-	height:4370px !important;
+	height:7738px !important;
 	background:#f1e1bb;
 }
 
-#item1528 {
+#item1489 {
 	width:262px !important;
-	height:4165px !important;
+	height:7529px !important;
 	left:57px !important;
 	top:136px !important;
 }
 
 #item1547 {
 	width:375px !important;
-	height:2313px !important;
+	height:3287px !important;
 	background:#f1e1bb;
 }
 
 #item1567 {
 	width:262px !important;
-	height:2108px !important;
+	height:3073px !important;
 	left:57px !important;
 	top:135px !important;
 }
 
 #item1586 {
 	width:375px !important;
-	height:4358px !important;
+	height:4429px !important;
 	background:#f1e1bb;
 }
 
 #item1606 {
 	width:262px !important;
-	height:4145px !important;
+	height:4219px !important;
 	left:57px !important;
 	top:136px !important;
 }
 
 #item1625 {
 	width:375px !important;
-	height:4084px !important;
+	height:4485px !important;
 	background:#f1e1bb;
 }
 
 #item1645 {
 	width:262px !important;
-	height:3874px !important;
+	height:4276px !important;
 	left:57px !important;
 	top:136px !important;
 }
@@ -1019,613 +948,125 @@ to{}	}
 	background:#f1e1bb;
 }
 
-#item1684 {
-	width:262px !important;
-	height:2138px !important;
-	left:57px !important;
-	top:136px !important;
-}
-
 #item1703 {
 	width:375px !important;
-	height:3990px !important;
+	height:2899px !important;
+	top:2346px !important;
 	background:#f1e1bb;
 }
 
-#item1723 {
+#item1684 {
 	width:262px !important;
-	height:3785px !important;
+	height:5033px !important;
 	left:57px !important;
 	top:136px !important;
 }
 
 #item1742 {
 	width:375px !important;
-	height:1136px !important;
+	height:5674px !important;
 	background:#f1e1bb;
-}
-
-#item1762_15606 {
-	position:relative;
-	left:auto !important;
-	top:auto !important;
-	margin:0px 24px 0px 0px;
 }
 
 #item1762 {
 	width:262px !important;
-	height:929px !important;
+	height:5469px !important;
 	left:57px !important;
 	top:136px !important;
-}
-
-#item1781 {
-	width:375px !important;
-	height:776px !important;
-	background:#f1e1bb;
-}
-
-#item15836 {
-	width:214px !important;
-	height:29px !important;
-	border-radius:14px;
-	background:#575757;
-	padding:7px;
-}
-
-#item15811 {
-	width:214px !important;
-	height:29px !important;
-	border-radius:14px;
-	background:#96211f;
-	padding:7px;
-}
-
-#item15787 {
-	width:214px !important;
-	height:29px !important;
-	border-radius:14px;
-	background:#575757;
-	padding:7px;
-}
-
-#item1801_15784 {
-	position:relative;
-	left:auto !important;
-	top:auto !important;
-}
-
-#item1801 {
-	width:262px !important;
-	height:550px !important;
-	left:57px !important;
-	top:136px !important;
-}
-
-#item1820 {
-	width:375px !important;
-	height:622px !important;
-	background:#f1e1bb;
-}
-
-#item16251 {
-	width:214px !important;
-	height:29px !important;
-	border-radius:14px;
-	background:#96211f;
-	padding:7px;
-}
-
-#item16227 {
-	width:214px !important;
-	height:29px !important;
-	border-radius:14px;
-	background:#575757;
-	padding:7px;
-}
-
-#item1840_16224 {
-	position:relative;
-	left:auto !important;
-	top:auto !important;
-}
-
-#item1840 {
-	width:262px !important;
-	height:466px !important;
-	left:57px !important;
-	top:74px !important;
-}
-
-#item1859 {
-	width:375px !important;
-	height:586px !important;
-	background:#f1e1bb;
-}
-
-#item16568 {
-	width:214px !important;
-	height:29px !important;
-	border-radius:14px;
-	background:#96211f;
-	padding:7px;
-}
-
-#item16544 {
-	width:214px !important;
-	height:29px !important;
-	border-radius:14px;
-	background:#575757;
-	padding:7px;
-}
-
-#item1879_16541 {
-	position:relative;
-	left:auto !important;
-	top:auto !important;
-}
-
-#item1879 {
-	width:262px !important;
-	height:444px !important;
-	left:57px !important;
-	top:74px !important;
-}
-
-#item1898 {
-	width:375px !important;
-	height:608px !important;
-	background:#f1e1bb;
-}
-
-#item16885 {
-	width:214px !important;
-	height:29px !important;
-	border-radius:14px;
-	background:#96211f;
-	padding:7px;
-}
-
-#item16861 {
-	width:214px !important;
-	height:29px !important;
-	border-radius:14px;
-	background:#575757;
-	padding:7px;
-}
-
-#item1918_16858 {
-	position:relative;
-	left:auto !important;
-	top:auto !important;
-}
-
-#item1918 {
-	width:262px !important;
-	height:466px !important;
-	left:57px !important;
-	top:74px !important;
-}
-
-#item1937 {
-	width:375px !important;
-	height:640px !important;
-	background:#f1e1bb;
-}
-
-#item17202 {
-	width:214px !important;
-	height:29px !important;
-	border-radius:14px;
-	background:#96211f;
-	padding:7px;
-}
-
-#item17178 {
-	width:214px !important;
-	height:29px !important;
-	border-radius:14px;
-	background:#575757;
-	padding:7px;
-}
-
-#item1957_17175 {
-	position:relative;
-	left:auto !important;
-	top:auto !important;
-}
-
-#item1957 {
-	width:262px !important;
-	height:488px !important;
-	left:57px !important;
-	top:74px !important;
-}
-
-#item1976 {
-	width:375px !important;
-	height:660px !important;
-	background:#f1e1bb;
-}
-
-#item17515 {
-	width:214px !important;
-	height:29px !important;
-	border-radius:14px;
-	background:#96211f;
-	padding:7px;
-}
-
-#item17491 {
-	width:214px !important;
-	height:29px !important;
-	border-radius:14px;
-	background:#575757;
-	padding:7px;
-}
-
-#item1996_17488 {
-	position:relative;
-	left:auto !important;
-	top:auto !important;
-}
-
-#item1996 {
-	width:262px !important;
-	height:510px !important;
-	left:57px !important;
-	top:74px !important;
-}
-
-#item2015 {
-	width:375px !important;
-	height:604px !important;
-	background:#f1e1bb;
-}
-
-#item17828 {
-	width:214px !important;
-	height:29px !important;
-	border-radius:14px;
-	background:#96211f;
-	padding:7px;
-}
-
-#item17804 {
-	width:214px !important;
-	height:29px !important;
-	border-radius:14px;
-	background:#575757;
-	padding:7px;
-}
-
-#item2035_17801 {
-	position:relative;
-	left:auto !important;
-	top:auto !important;
-}
-
-#item2035 {
-	width:262px !important;
-	height:466px !important;
-	left:57px !important;
-	top:74px !important;
-}
-
-#item2054 {
-	width:375px !important;
-	height:564px !important;
-	background:#f1e1bb;
-}
-
-#item18145 {
-	width:214px !important;
-	height:29px !important;
-	border-radius:14px;
-	background:#96211f;
-	padding:7px;
-}
-
-#item18120 {
-	width:214px !important;
-	height:29px !important;
-	border-radius:14px;
-	background:#575757;
-	padding:7px;
-}
-
-#item2074_18117 {
-	position:relative;
-	left:auto !important;
-	top:auto !important;
-}
-
-#item2074 {
-	width:262px !important;
-	height:422px !important;
-	left:57px !important;
-	top:74px !important;
-}
-
-#item2093 {
-	width:375px !important;
-	height:644px !important;
-	background:#f1e1bb;
-}
-
-#item18435 {
-	width:214px !important;
-	height:29px !important;
-	border-radius:14px;
-	background:#96211f;
-	padding:7px;
-}
-
-#item18410 {
-	width:214px !important;
-	height:29px !important;
-	border-radius:14px;
-	background:#575757;
-	padding:7px;
-}
-
-#item2113_18407 {
-	position:relative;
-	left:auto !important;
-	top:auto !important;
-}
-
-#item2113 {
-	width:262px !important;
-	height:495px !important;
-	left:57px !important;
-	top:74px !important;
-}
-
-#item2132 {
-	width:375px !important;
-	height:658px !important;
-	background:#f1e1bb;
-}
-
-#item18725 {
-	width:214px !important;
-	height:29px !important;
-	border-radius:14px;
-	background:#96211f;
-	padding:7px;
-}
-
-#item18700 {
-	width:214px !important;
-	height:29px !important;
-	border-radius:14px;
-	background:#575757;
-	padding:7px;
-}
-
-#item2152_18697 {
-	position:relative;
-	left:auto !important;
-	top:auto !important;
-}
-
-#item2152 {
-	width:262px !important;
-	height:510px !important;
-	left:57px !important;
-	top:74px !important;
 }
 
 #item2171 {
 	width:375px !important;
-	height:747px !important;
+	height:2872px !important;
 	background:#f1e1bb;
-}
-
-#item19045 {
-	width:214px !important;
-	height:29px !important;
-	border-radius:14px;
-	background:#96211f;
-	padding:7px;
-}
-
-#item19020 {
-	width:214px !important;
-	height:29px !important;
-	border-radius:14px;
-	background:#575757;
-	padding:7px;
-}
-
-#item2191_19017 {
-	position:relative;
-	left:auto !important;
-	top:auto !important;
 }
 
 #item2191 {
 	width:262px !important;
-	height:618px !important;
-	left:57px !important;
-	top:74px !important;
-}
-
-#item2210 {
-	width:375px !important;
-	height:650px !important;
-	background:#f1e1bb;
-}
-
-#item19349 {
-	width:214px !important;
-	height:29px !important;
-	border-radius:14px;
-	background:#96211f;
-	padding:7px;
-}
-
-#item19324 {
-	width:214px !important;
-	height:29px !important;
-	border-radius:14px;
-	background:#575757;
-	padding:7px;
-}
-
-#item2230_19321 {
-	position:relative;
-	left:auto !important;
-	top:auto !important;
-}
-
-#item2230 {
-	width:262px !important;
-	height:502px !important;
-	left:57px !important;
-	top:74px !important;
-}
-
-#item2249 {
-	width:375px !important;
-	height:626px !important;
-	background:#f1e1bb;
-}
-
-#item19657 {
-	width:214px !important;
-	height:29px !important;
-	border-radius:14px;
-	background:#96211f;
-	padding:7px;
-}
-
-#item19632 {
-	width:214px !important;
-	height:29px !important;
-	border-radius:14px;
-	background:#575757;
-	padding:7px;
-}
-
-#item2269_19629 {
-	position:relative;
-	left:auto !important;
-	top:auto !important;
-}
-
-#item2269 {
-	width:262px !important;
-	height:480px !important;
-	left:57px !important;
-	top:74px !important;
-}
-
-#item2288 {
-	width:375px !important;
-	height:580px !important;
-	background:#f1e1bb;
-}
-
-#item19992 {
-	width:214px !important;
-	height:29px !important;
-	border-radius:14px;
-	background:#96211f;
-	padding:7px;
-}
-
-#item19968 {
-	width:214px !important;
-	height:29px !important;
-	border-radius:14px;
-	background:#575757;
-	padding:7px;
-}
-
-#item2308_19964 {
-	position:relative;
-	left:auto !important;
-	top:auto !important;
-}
-
-#item2308 {
-	width:262px !important;
-	height:436px !important;
-	left:57px !important;
-	top:74px !important;
-}
-
-#item2327 {
-	width:375px !important;
-	height:684px !important;
-	background:#f1e1bb;
-}
-
-#item20285 {
-	width:214px !important;
-	height:29px !important;
-	border-radius:14px;
-	background:#575757;
-	padding:7px;
-}
-
-#item2347_20281 {
-	position:relative;
-	left:auto !important;
-	top:auto !important;
-}
-
-#item2347 {
-	width:262px !important;
-	height:549px !important;
-	left:57px !important;
-	top:73px !important;
-}
-
-#item2366 {
-	width:375px !important;
-	height:711px !important;
-	background:#f1e1bb;
-}
-
-#item20502 {
-	width:214px !important;
-	height:29px !important;
-	border-radius:14px;
-	background:#96211f;
-	padding:7px;
-}
-
-#item20478 {
-	width:214px !important;
-	height:29px !important;
-	border-radius:14px;
-	background:#575757;
-	padding:7px;
-}
-
-#item2386_20474 {
-	position:relative;
-	left:auto !important;
-	top:auto !important;
-}
-
-#item2386 {
-	width:262px !important;
-	height:581px !important;
+	height:2726px !important;
 	left:57px !important;
 	top:74px !important;
 }
 
 #item4256 {
 	width:375px !important;
-	height:749px !important;
+	height:5689px !important;
 	background:#f1e1bb;
 }
 
-#item20843 {
+#item4195 {
+	width:262px !important;
+	height:5487px !important;
+	left:57px !important;
+	top:136px !important;
+}
+
+#item8687 {
+	width:375px !important;
+	height:5351px !important;
+	background:#f1e1bb;
+}
+
+#item4943 {
+	width:262px !important;
+	height:5142px !important;
+	left:57px !important;
+	top:136px !important;
+}
+
+#item8688 {
+	width:375px !important;
+	height:3072px !important;
+	background:#f1e1bb;
+}
+
+#item4988 {
+	width:262px !important;
+	height:2863px !important;
+	left:57px !important;
+	top:136px !important;
+}
+
+#item8692 {
+	width:375px !important;
+	height:5170px !important;
+	background:#f1e1bb;
+}
+
+#item5033 {
+	width:262px !important;
+	height:4965px !important;
+	left:57px !important;
+	top:136px !important;
+}
+
+#item8693 {
+	width:375px !important;
+	height:1312px !important;
+	background:#f1e1bb;
+}
+
+#item5079_21180 {
+	position:relative;
+	left:auto !important;
+	top:auto !important;
+	margin:0px 24px 0px 0px;
+}
+
+#item5079 {
+	width:262px !important;
+	height:1178px !important;
+	left:57px !important;
+	top:74px !important;
+}
+
+#item9028 {
+	width:375px !important;
+	height:1198px !important;
+	background:#f1e1bb;
+}
+
+#item21408 {
 	width:214px !important;
 	height:29px !important;
 	border-radius:14px;
@@ -1633,7 +1074,7 @@ to{}	}
 	padding:7px;
 }
 
-#item20819 {
+#item21384 {
 	width:214px !important;
 	height:29px !important;
 	border-radius:14px;
@@ -1641,7 +1082,7 @@ to{}	}
 	padding:7px;
 }
 
-#item20795 {
+#item21360 {
 	width:214px !important;
 	height:29px !important;
 	border-radius:14px;
@@ -1649,15 +1090,510 @@ to{}	}
 	padding:7px;
 }
 
-#item4195_20791 {
+#item5124_21357 {
 	position:relative;
 	left:auto !important;
 	top:auto !important;
 }
 
-#item4195 {
+#item5124 {
 	width:262px !important;
-	height:648px !important;
+	height:738px !important;
+	left:57px !important;
+	top:74px !important;
+}
+
+#item9029 {
+	width:260px !important;
+	height:360px !important;
+	left:58px !important;
+	top:764px !important;
+}
+
+#item21823 {
+	width:214px !important;
+	height:29px !important;
+	border-radius:14px;
+	background:#96211f;
+	padding:7px;
+}
+
+#item21799 {
+	width:214px !important;
+	height:29px !important;
+	border-radius:14px;
+	background:#575757;
+	padding:7px;
+}
+
+#item5170_21796 {
+	position:relative;
+	left:auto !important;
+	top:auto !important;
+}
+
+#item5170 {
+	width:262px !important;
+	height:738px !important;
+	left:57px !important;
+	top:74px !important;
+}
+
+#item22141 {
+	width:214px !important;
+	height:29px !important;
+	border-radius:14px;
+	background:#96211f;
+	padding:7px;
+}
+
+#item22117 {
+	width:214px !important;
+	height:29px !important;
+	border-radius:14px;
+	background:#575757;
+	padding:7px;
+}
+
+#item5214_22114 {
+	position:relative;
+	left:auto !important;
+	top:auto !important;
+}
+
+#item5214 {
+	width:262px !important;
+	height:738px !important;
+	left:57px !important;
+	top:74px !important;
+}
+
+#item22459 {
+	width:214px !important;
+	height:29px !important;
+	border-radius:14px;
+	background:#96211f;
+	padding:7px;
+}
+
+#item22435 {
+	width:214px !important;
+	height:29px !important;
+	border-radius:14px;
+	background:#575757;
+	padding:7px;
+}
+
+#item5258_22432 {
+	position:relative;
+	left:auto !important;
+	top:auto !important;
+}
+
+#item5258 {
+	width:262px !important;
+	height:738px !important;
+	left:57px !important;
+	top:74px !important;
+}
+
+#item22777 {
+	width:214px !important;
+	height:29px !important;
+	border-radius:14px;
+	background:#96211f;
+	padding:7px;
+}
+
+#item22753 {
+	width:214px !important;
+	height:29px !important;
+	border-radius:14px;
+	background:#575757;
+	padding:7px;
+}
+
+#item5303_22750 {
+	position:relative;
+	left:auto !important;
+	top:auto !important;
+}
+
+#item5303 {
+	width:262px !important;
+	height:738px !important;
+	left:57px !important;
+	top:74px !important;
+}
+
+#item23091 {
+	width:214px !important;
+	height:29px !important;
+	border-radius:14px;
+	background:#96211f;
+	padding:7px;
+}
+
+#item23067 {
+	width:214px !important;
+	height:29px !important;
+	border-radius:14px;
+	background:#575757;
+	padding:7px;
+}
+
+#item5349_23064 {
+	position:relative;
+	left:auto !important;
+	top:auto !important;
+}
+
+#item5349 {
+	width:262px !important;
+	height:738px !important;
+	left:57px !important;
+	top:74px !important;
+}
+
+#item23405 {
+	width:214px !important;
+	height:29px !important;
+	border-radius:14px;
+	background:#96211f;
+	padding:7px;
+}
+
+#item23381 {
+	width:214px !important;
+	height:29px !important;
+	border-radius:14px;
+	background:#575757;
+	padding:7px;
+}
+
+#item5394_23378 {
+	position:relative;
+	left:auto !important;
+	top:auto !important;
+}
+
+#item5394 {
+	width:262px !important;
+	height:738px !important;
+	left:57px !important;
+	top:74px !important;
+}
+
+#item23722 {
+	width:214px !important;
+	height:29px !important;
+	border-radius:14px;
+	background:#96211f;
+	padding:7px;
+}
+
+#item23698 {
+	width:214px !important;
+	height:29px !important;
+	border-radius:14px;
+	background:#575757;
+	padding:7px;
+}
+
+#item5440_23695 {
+	position:relative;
+	left:auto !important;
+	top:auto !important;
+}
+
+#item5440 {
+	width:262px !important;
+	height:738px !important;
+	left:57px !important;
+	top:74px !important;
+}
+
+#item24008 {
+	width:214px !important;
+	height:29px !important;
+	border-radius:14px;
+	background:#96211f;
+	padding:7px;
+}
+
+#item23984 {
+	width:214px !important;
+	height:29px !important;
+	border-radius:14px;
+	background:#575757;
+	padding:7px;
+}
+
+#item5485_23981 {
+	position:relative;
+	left:auto !important;
+	top:auto !important;
+}
+
+#item5485 {
+	width:262px !important;
+	height:738px !important;
+	left:57px !important;
+	top:74px !important;
+}
+
+#item24294 {
+	width:214px !important;
+	height:29px !important;
+	border-radius:14px;
+	background:#96211f;
+	padding:7px;
+}
+
+#item24270 {
+	width:214px !important;
+	height:29px !important;
+	border-radius:14px;
+	background:#575757;
+	padding:7px;
+}
+
+#item5530_24267 {
+	position:relative;
+	left:auto !important;
+	top:auto !important;
+}
+
+#item5530 {
+	width:262px !important;
+	height:738px !important;
+	left:57px !important;
+	top:74px !important;
+}
+
+#item8695 {
+	width:375px !important;
+	height:942px !important;
+	background:#f1e1bb;
+}
+
+#item24612 {
+	width:214px !important;
+	height:29px !important;
+	border-radius:14px;
+	background:#96211f;
+	padding:7px;
+}
+
+#item24588 {
+	width:214px !important;
+	height:29px !important;
+	border-radius:14px;
+	background:#575757;
+	padding:7px;
+}
+
+#item5574_24585 {
+	position:relative;
+	left:auto !important;
+	top:auto !important;
+}
+
+#item5574 {
+	width:262px !important;
+	height:795px !important;
+	left:57px !important;
+	top:74px !important;
+}
+
+#item9591 {
+	width:375px !important;
+	height:946px !important;
+	background:#f1e1bb;
+}
+
+#item24899 {
+	width:214px !important;
+	height:29px !important;
+	border-radius:14px;
+	background:#96211f;
+	padding:7px;
+}
+
+#item24875 {
+	width:214px !important;
+	height:29px !important;
+	border-radius:14px;
+	background:#575757;
+	padding:7px;
+}
+
+#item5618_24872 {
+	position:relative;
+	left:auto !important;
+	top:auto !important;
+}
+
+#item5618 {
+	width:262px !important;
+	height:836px !important;
+	left:57px !important;
+	top:74px !important;
+}
+
+#item25190 {
+	width:214px !important;
+	height:29px !important;
+	border-radius:14px;
+	background:#96211f;
+	padding:7px;
+}
+
+#item25166 {
+	width:214px !important;
+	height:29px !important;
+	border-radius:14px;
+	background:#575757;
+	padding:7px;
+}
+
+#item5664_25163 {
+	position:relative;
+	left:auto !important;
+	top:auto !important;
+}
+
+#item5664 {
+	width:262px !important;
+	height:738px !important;
+	left:57px !important;
+	top:74px !important;
+}
+
+#item25510 {
+	width:214px !important;
+	height:29px !important;
+	border-radius:14px;
+	background:#96211f;
+	padding:7px;
+}
+
+#item25486 {
+	width:214px !important;
+	height:29px !important;
+	border-radius:14px;
+	background:#575757;
+	padding:7px;
+}
+
+#item5710_25483 {
+	position:relative;
+	left:auto !important;
+	top:auto !important;
+}
+
+#item5710 {
+	width:262px !important;
+	height:738px !important;
+	left:57px !important;
+	top:74px !important;
+}
+
+#item9027 {
+	width:375px !important;
+	height:845px !important;
+	background:#f1e1bb;
+}
+
+#item25772 {
+	width:214px !important;
+	height:29px !important;
+	border-radius:14px;
+	background:#575757;
+	padding:7px;
+}
+
+#item5754_25769 {
+	position:relative;
+	left:auto !important;
+	top:auto !important;
+}
+
+#item5754 {
+	width:262px !important;
+	height:738px !important;
+	left:57px !important;
+	top:74px !important;
+}
+
+#item25988 {
+	width:214px !important;
+	height:29px !important;
+	border-radius:14px;
+	background:#96211f;
+	padding:7px;
+}
+
+#item25964 {
+	width:214px !important;
+	height:29px !important;
+	border-radius:14px;
+	background:#575757;
+	padding:7px;
+}
+
+#item5798_25961 {
+	position:relative;
+	left:auto !important;
+	top:auto !important;
+}
+
+#item5798 {
+	width:262px !important;
+	height:738px !important;
+	left:57px !important;
+	top:74px !important;
+}
+
+#item8907 {
+	width:375px !important;
+	height:932px !important;
+	background:#f1e1bb;
+}
+
+#item26298 {
+	width:214px !important;
+	height:29px !important;
+	border-radius:14px;
+	background:#575757;
+	padding:7px;
+}
+
+#item26274 {
+	width:214px !important;
+	height:29px !important;
+	border-radius:14px;
+	background:#96211f;
+	padding:7px;
+}
+
+#item26250 {
+	width:214px !important;
+	height:29px !important;
+	border-radius:14px;
+	background:#575757;
+	padding:7px;
+}
+
+#item5844_26247 {
+	position:relative;
+	left:auto !important;
+	top:auto !important;
+}
+
+#item5844 {
+	width:262px !important;
+	height:790px !important;
 	left:57px !important;
 	top:74px !important;
 }
@@ -1769,8 +1705,8 @@ p.Num_pag {
 
 p.p-esquerda {
 	font-family:"Open Sans",sans-serif;
-	font-size:12px;
-	line-height:18px;
+	font-size:15px;
+	line-height:22.5px;
 	color:#000;
 	letter-spacing:-0.025em;
 	hyphens:auto;
@@ -1791,8 +1727,8 @@ p.p-esquerda {
 
 p.p-falas {
 	font-family:"Open Sans",sans-serif;
-	font-size:15px;
-	line-height:22px;
+	font-size:17.5px;
+	line-height:25px;
 	color:#000;
 	letter-spacing:-0.025em;
 	text-align:left;
@@ -1800,18 +1736,23 @@ p.p-falas {
 
 p.p-dropcaps {
 	font-family:"Open Sans",sans-serif;
-	font-size:15px;
-	line-height:22px;
+	font-size:17.5px;
+	line-height:25px;
 	color:#000;
 	letter-spacing:-0.025em;
 	margin-bottom:12px;
 	text-align:left;
 }
+p.p-dropcaps:first-child:first-letter {
+	font-size:57px;
+	padding:4px 4px 0 0;
+	float:left;
+}
 
 p.p {
 	font-family:"Open Sans",sans-serif;
-	font-size:15px;
-	line-height:22px;
+	font-size:17.5px;
+	line-height:25px;
 	color:#000;
 	letter-spacing:-0.025em;
 	margin-bottom:12px;
@@ -1842,8 +1783,8 @@ h3.h3-pracas {
 
 h3.h3 {
 	font-family:"Open Sans",sans-serif;
-	font-size:17px;
-	line-height:25px;
+	font-size:19px;
+	line-height:27px;
 	color:#000;
 	margin-bottom:40px;
 	text-align:left;
@@ -1852,8 +1793,8 @@ h3.h3 {
 h2.h2-conto {
 	font-weight:bold;
 	font-family:FF-OpenSans-Bold,"Open Sans",sans-serif;
-	font-size:27px;
-	line-height:29.1px;
+	font-size:29px;
+	line-height:32px;
 	color:#96211f;
 	margin-bottom:6px;
 	text-align:left;
@@ -1884,8 +1825,8 @@ p.h2-secoes-complementares {
 h2.h2 {
 	font-weight:bold;
 	font-family:FF-OpenSans-Bold,"Open Sans",sans-serif;
-	font-size:22px;
-	line-height:23.7px;
+	font-size:25px;
+	line-height:27px;
 	color:#96211f;
 	hyphens:auto;
 	-moz-hyphens:auto;
@@ -1988,16 +1929,16 @@ p.p-data-publicacao {
 
 p.p-autor {
 	font-family:"Open Sans",sans-serif;
-	font-size:15px;
-	line-height:22px;
+	font-size:17.5px;
+	line-height:25px;
 	color:#000;
 	text-align:right;
 }
 
 p.autoras-curriculo {
 	font-family:"Open Sans",sans-serif;
-	font-size:13px;
-	line-height:19.5px;
+	font-size:15px;
+	line-height:22.5px;
 	color:#000;
 	padding-top:16px;
 	border-top:solid 2px #000;
@@ -2007,23 +1948,10 @@ p.autoras-curriculo {
 
 p.Corpo_Sumario {
 	font-family:"Open Sans",sans-serif;
-	font-size:14px;
-	line-height:24px;
+	font-size:17.5px;
+	line-height:30px;
 	color:#000;
-	hyphens:auto;
-	-moz-hyphens:auto;
-	-ms-hyphens:auto;
-	-webkit-hyphens:auto;
-	hyphenate-after:2;
-	-ms-hyphenate-after:2;
-	-moz-hyphenate-after:2;
-	-webkit-hyphenate-after:2;
-	hyphenate-before:2;
-	-ms-hyphenate-before:2;
-	-moz-hyphenate-before:2;
-	-webkit-hyphenate-before:2;
-	padding-bottom:5px;
-	margin-bottom:3px;
+	margin-bottom:8px;
 	border-bottom:dotted 0.5px #000;
 	text-align:left;
 }
@@ -2087,8 +2015,8 @@ p.ficha-header {
 
 dt.cargos {
 	font-family:"Open Sans",sans-serif;
-	font-size:9px;
-	line-height:10.8px;
+	font-size:11px;
+	line-height:13.2px;
 	color:#000;
 	hyphens:auto;
 	-moz-hyphens:auto;
@@ -2109,8 +2037,8 @@ dt.cargos {
 dd.nomes {
 	font-weight:bold;
 	font-family:FF-OpenSans-Bold,"Open Sans",sans-serif;
-	font-size:9px;
-	line-height:10.8px;
+	font-size:11px;
+	line-height:13.2px;
 	color:#000;
 	hyphens:auto;
 	-moz-hyphens:auto;
@@ -2129,8 +2057,8 @@ dd.nomes {
 
 small.copyright {
 	font-family:"Open Sans",sans-serif;
-	font-size:9px;
-	line-height:10.8px;
+	font-size:13px;
+	line-height:15.6px;
 	color:#000;
 	text-align:center;
 }
@@ -2203,7 +2131,7 @@ span.autoCharStyle1 {
 span.referencia-cruzada {
 	font-weight:bold;
 	font-family:FF-OpenSans-Bold,"Open Sans",sans-serif;
-	font-size:13px;
+	font-size:16px;
 	color:#00aeef;
 }
 
@@ -2228,10 +2156,10 @@ span.link {
 	color:#fff;
 }
 
-span.bold-12 {
+span.bold-17_5 {
 	font-weight:bold;
 	font-family:Roboto,sans-serif;
-	font-size:15px;
+	font-size:17.5px;
 	color:#000;
 }
 
@@ -2252,8 +2180,14 @@ span.bold-italic {
 span.dropcaps {
 	font-weight:bold;
 	font-family:"Open Sans",sans-serif;
-	font-size:15px;
+	font-size:17.5px;
 	color:#96211f;
+	letter-spacing:0.050em;
+}
+
+span.fontawsome {
+	font-family:FF-FontAwesome6Brands-Regular,"Font Awesome 6 Brands","Times New Roman", Times, serif;
+	font-size:15px;
 }
 
 span.None {
