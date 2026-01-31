@@ -1,0 +1,86 @@
+
+/* Estilos para o botão  */
+html, body{
+    box-sizing: border-box;
+}
+
+.btn-menu{
+    background-color: rgb(237, 102, 29);
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: fixed;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    top: 0;
+    left: 10px;
+    z-index: 100;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box
+}
+
+/* Estilos para o menu-box */
+.menu-box{
+    background-color: lightgray;
+    font-family: 'Open Sans', sans-serif;
+    padding: 75px 16px 16px;
+    left: -100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    height: calc(100vh - 80px);
+    transition: all 0.5s ease-in-out;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+.menu-box.active{
+    display:fixed;
+    left: 0;
+    overflow-y:initial;
+  
+    
+}
+.menu-item{
+    background-color: rgb(57, 58, 57);
+    display: block;
+    width: 85%;
+    color: #fff;
+    padding: 16px 16px 16px 16px;
+    margin: 0 0 15px 0;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+.btn-menu.active{
+    background-color: rgb(237, 102, 29);
+    color: #fff;
+}
+
+/* Estado Normal (Hambúrguer) */
+.btn-menu::before {
+    content: '☰'; /* Símbolo de menu unicode */
+    font-size: 30px;
+}
+
+/* Quando o botão tem a classe .active (Vira X) */
+.btn-menu.active::before {
+    content: '✕'; /* Símbolo de fechar unicode */
+}
+
+/* Essa linha é o espaço do topo das seções */
+.h2-conto {
+    scroll-margin-top: 190px; /* Ajuste o valor conforme necessário */
+}
