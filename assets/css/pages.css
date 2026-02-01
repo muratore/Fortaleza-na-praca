@@ -729,6 +729,19 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	top:223px !important;
 }
 
+@keyframes appear-561 {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+@-webkit-keyframes appear-561 {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+#item561 {
+	transform-origin:49.917% 49.917%;
+	-webkit-transform-origin:49.917% 49.917%;
+}
+
 @keyframes appear-551 {
 	0% {opacity:0;}
 	50% {opacity:0;}
@@ -742,19 +755,6 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	100% {opacity:1;}
 }
 #item551 {
-	transform-origin:49.917% 49.917%;
-	-webkit-transform-origin:49.917% 49.917%;
-}
-
-@keyframes appear-561 {
-	0% {opacity:0;}
-	100% {opacity:1;}
-}
-@-webkit-keyframes appear-561 {
-	0% {opacity:0;}
-	100% {opacity:1;}
-}
-#item561 {
 	transform-origin:49.917% 49.917%;
 	-webkit-transform-origin:49.917% 49.917%;
 }
@@ -832,7 +832,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	background:#f1e1bb;
 }
 
-#item837 {
+#item12885 {
 	width:306px !important;
 	height:362px !important;
 	left:57px !important;
@@ -1742,7 +1742,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	top:57px !important;
 }
 
-#item12283_27743 {
+#item12283_52786 {
 	position:relative;
 	left:auto !important;
 	top:auto !important;
@@ -1763,7 +1763,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	top:57px !important;
 }
 
-#item28182 {
+#item54595 {
 	width:227px !important;
 	height:32px !important;
 	border-radius:14px;
@@ -1771,7 +1771,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	padding:7px;
 }
 
-#item28158 {
+#item54570 {
 	width:227px !important;
 	height:32px !important;
 	border-radius:14px;
@@ -1779,7 +1779,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	padding:7px;
 }
 
-#item5042_28155 {
+#item5042_54567 {
 	position:relative;
 	left:auto !important;
 	top:auto !important;
@@ -1792,7 +1792,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	top:57px !important;
 }
 
-#item28663 {
+#item54940 {
 	width:227px !important;
 	height:32px !important;
 	border-radius:14px;
@@ -1800,7 +1800,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	padding:7px;
 }
 
-#item28639 {
+#item54916 {
 	width:227px !important;
 	height:32px !important;
 	border-radius:14px;
@@ -1808,7 +1808,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	padding:7px;
 }
 
-#item5103_28636 {
+#item5103_54912 {
 	position:relative;
 	left:auto !important;
 	top:auto !important;
@@ -1821,7 +1821,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	top:57px !important;
 }
 
-#item29117 {
+#item55258 {
 	width:227px !important;
 	height:32px !important;
 	border-radius:14px;
@@ -1829,7 +1829,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	padding:7px;
 }
 
-#item29093 {
+#item55234 {
 	width:227px !important;
 	height:32px !important;
 	border-radius:14px;
@@ -1837,7 +1837,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	padding:7px;
 }
 
-#item5203_29090 {
+#item5203_55230 {
 	position:relative;
 	left:auto !important;
 	top:auto !important;
@@ -1850,7 +1850,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	top:57px !important;
 }
 
-#item29571 {
+#item55576 {
 	width:227px !important;
 	height:32px !important;
 	border-radius:14px;
@@ -1858,7 +1858,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	padding:7px;
 }
 
-#item29547 {
+#item55552 {
 	width:227px !important;
 	height:32px !important;
 	border-radius:14px;
@@ -1866,7 +1866,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	padding:7px;
 }
 
-#item5237_29544 {
+#item5237_55548 {
 	position:relative;
 	left:auto !important;
 	top:auto !important;
@@ -1879,7 +1879,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	top:57px !important;
 }
 
-#item30025 {
+#item55894 {
 	width:227px !important;
 	height:32px !important;
 	border-radius:14px;
@@ -1887,7 +1887,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	padding:7px;
 }
 
-#item30001 {
+#item55870 {
 	width:227px !important;
 	height:32px !important;
 	border-radius:14px;
@@ -1895,7 +1895,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	padding:7px;
 }
 
-#item5271_29998 {
+#item5271_55866 {
 	position:relative;
 	left:auto !important;
 	top:auto !important;
@@ -1908,7 +1908,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	top:57px !important;
 }
 
-#item30409 {
+#item56212 {
 	width:227px !important;
 	height:32px !important;
 	border-radius:14px;
@@ -1916,7 +1916,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	padding:7px;
 }
 
-#item30385 {
+#item56188 {
 	width:227px !important;
 	height:32px !important;
 	border-radius:14px;
@@ -1924,7 +1924,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	padding:7px;
 }
 
-#item5305_30382 {
+#item5305_56184 {
 	position:relative;
 	left:auto !important;
 	top:auto !important;
@@ -1937,7 +1937,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	top:57px !important;
 }
 
-#item30699 {
+#item56506 {
 	width:227px !important;
 	height:32px !important;
 	border-radius:14px;
@@ -1945,7 +1945,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	padding:7px;
 }
 
-#item30723 {
+#item56530 {
 	width:227px !important;
 	height:32px !important;
 	border-radius:14px;
@@ -1953,7 +1953,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	padding:7px;
 }
 
-#item5339_30696 {
+#item5339_56502 {
 	position:relative;
 	left:auto !important;
 	top:auto !important;
@@ -1966,7 +1966,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	top:57px !important;
 }
 
-#item31015 {
+#item56829 {
 	width:227px !important;
 	height:32px !important;
 	border-radius:14px;
@@ -1974,7 +1974,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	padding:7px;
 }
 
-#item31039 {
+#item56853 {
 	width:227px !important;
 	height:32px !important;
 	border-radius:14px;
@@ -1982,7 +1982,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	padding:7px;
 }
 
-#item5373_31012 {
+#item5373_56825 {
 	position:relative;
 	left:auto !important;
 	top:auto !important;
@@ -1995,7 +1995,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	top:57px !important;
 }
 
-#item31301 {
+#item57132 {
 	width:227px !important;
 	height:32px !important;
 	border-radius:14px;
@@ -2003,7 +2003,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	padding:7px;
 }
 
-#item31325 {
+#item57156 {
 	width:227px !important;
 	height:32px !important;
 	border-radius:14px;
@@ -2011,7 +2011,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	padding:7px;
 }
 
-#item5407_31298 {
+#item5407_57128 {
 	position:relative;
 	left:auto !important;
 	top:auto !important;
@@ -2031,7 +2031,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	top:363px !important;
 }
 
-#item31588 {
+#item62627 {
 	width:227px !important;
 	height:32px !important;
 	border-radius:14px;
@@ -2039,7 +2039,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	padding:7px;
 }
 
-#item31612 {
+#item62651 {
 	width:227px !important;
 	height:32px !important;
 	border-radius:14px;
@@ -2047,7 +2047,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	padding:7px;
 }
 
-#item5441_31585 {
+#item5441_62624 {
 	position:relative;
 	left:auto !important;
 	top:auto !important;
@@ -2060,7 +2060,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	top:57px !important;
 }
 
-#item31907 {
+#item69885 {
 	width:227px !important;
 	height:32px !important;
 	border-radius:14px;
@@ -2068,7 +2068,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	padding:7px;
 }
 
-#item31931 {
+#item69909 {
 	width:227px !important;
 	height:32px !important;
 	border-radius:14px;
@@ -2076,7 +2076,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	padding:7px;
 }
 
-#item5475_31904 {
+#item5475_69882 {
 	position:relative;
 	left:auto !important;
 	top:auto !important;
@@ -2089,7 +2089,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	top:57px !important;
 }
 
-#item32227 {
+#item70211 {
 	width:227px !important;
 	height:32px !important;
 	border-radius:14px;
@@ -2097,7 +2097,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	padding:7px;
 }
 
-#item32251 {
+#item70235 {
 	width:227px !important;
 	height:32px !important;
 	border-radius:14px;
@@ -2105,7 +2105,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	padding:7px;
 }
 
-#item5509_32224 {
+#item5509_70208 {
 	position:relative;
 	left:auto !important;
 	top:auto !important;
@@ -2118,7 +2118,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	top:57px !important;
 }
 
-#item32542 {
+#item70530 {
 	width:227px !important;
 	height:32px !important;
 	border-radius:14px;
@@ -2126,7 +2126,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	padding:7px;
 }
 
-#item32566 {
+#item70554 {
 	width:227px !important;
 	height:32px !important;
 	border-radius:14px;
@@ -2134,7 +2134,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	padding:7px;
 }
 
-#item5543_32539 {
+#item5543_70527 {
 	position:relative;
 	left:auto !important;
 	top:auto !important;
@@ -2147,7 +2147,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	top:57px !important;
 }
 
-#item32905 {
+#item70895 {
 	width:227px !important;
 	height:32px !important;
 	border-radius:14px;
@@ -2155,7 +2155,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	padding:7px;
 }
 
-#item32929 {
+#item70919 {
 	width:227px !important;
 	height:32px !important;
 	border-radius:14px;
@@ -2163,7 +2163,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	padding:7px;
 }
 
-#item5577_32902 {
+#item5577_70892 {
 	position:relative;
 	left:auto !important;
 	top:auto !important;
@@ -2176,7 +2176,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	top:57px !important;
 }
 
-#item33229 {
+#item71215 {
 	width:227px !important;
 	height:32px !important;
 	border-radius:14px;
@@ -2184,7 +2184,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	padding:7px;
 }
 
-#item33253 {
+#item71239 {
 	width:227px !important;
 	height:32px !important;
 	border-radius:14px;
@@ -2192,7 +2192,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	padding:7px;
 }
 
-#item5611_33226 {
+#item5611_71212 {
 	position:relative;
 	left:auto !important;
 	top:auto !important;
@@ -2205,7 +2205,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	top:57px !important;
 }
 
-#item33577 {
+#item71559 {
 	width:227px !important;
 	height:32px !important;
 	border-radius:14px;
@@ -2213,7 +2213,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	padding:7px;
 }
 
-#item33553 {
+#item71535 {
 	width:227px !important;
 	height:32px !important;
 	border-radius:14px;
@@ -2221,7 +2221,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	padding:7px;
 }
 
-#item5645_33550 {
+#item5645_71532 {
 	position:relative;
 	left:auto !important;
 	top:auto !important;
@@ -2234,7 +2234,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	top:57px !important;
 }
 
-#item33877 {
+#item71852 {
 	width:227px !important;
 	height:32px !important;
 	border-radius:14px;
@@ -2242,7 +2242,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	padding:7px;
 }
 
-#item33901 {
+#item71876 {
 	width:227px !important;
 	height:32px !important;
 	border-radius:14px;
@@ -2250,7 +2250,7 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	padding:7px;
 }
 
-#item5679_33874 {
+#item5679_71849 {
 	position:relative;
 	left:auto !important;
 	top:auto !important;
@@ -2374,6 +2374,75 @@ p.autoParaStyle1 {
 	text-align:right;
 }
 
+p.mobile_-_Num_pag {
+	font-family:"Open Sans",sans-serif;
+	font-size:11px;
+	line-height:13.2px;
+	color:#000;
+	hyphens:auto;
+	-moz-hyphens:auto;
+	-ms-hyphens:auto;
+	-webkit-hyphens:auto;
+	hyphenate-after:2;
+	-ms-hyphenate-after:2;
+	-moz-hyphenate-after:2;
+	-webkit-hyphenate-after:2;
+	hyphenate-before:2;
+	-ms-hyphenate-before:2;
+	-moz-hyphenate-before:2;
+	-webkit-hyphenate-before:2;
+	text-align:left;
+}
+
+h2.mobile_-_h2 {
+	font-weight:bold;
+	font-family:FF-OpenSans-Bold,"Open Sans",sans-serif;
+	font-size:22px;
+	line-height:23.7px;
+	color:#96211f;
+	hyphens:auto;
+	-moz-hyphens:auto;
+	-ms-hyphens:auto;
+	-webkit-hyphens:auto;
+	hyphenate-after:2;
+	-ms-hyphenate-after:2;
+	-moz-hyphenate-after:2;
+	-webkit-hyphenate-after:2;
+	hyphenate-before:2;
+	-ms-hyphenate-before:2;
+	-moz-hyphenate-before:2;
+	-webkit-hyphenate-before:2;
+	margin-bottom:40px;
+	text-align:left;
+}
+
+p.mobile_-_Ficha-Catalografica_-_Ficha_catalografica {
+	font-family:"Open Sans",sans-serif;
+	font-size:9px;
+	line-height:10.8px;
+	color:#000;
+	hyphens:auto;
+	-moz-hyphens:auto;
+	-ms-hyphens:auto;
+	-webkit-hyphens:auto;
+	hyphenate-after:2;
+	-ms-hyphenate-after:2;
+	-moz-hyphenate-after:2;
+	-webkit-hyphenate-after:2;
+	hyphenate-before:2;
+	-ms-hyphenate-before:2;
+	-moz-hyphenate-before:2;
+	-webkit-hyphenate-before:2;
+	text-align:center;
+}
+
+p.mobile_-_Corpo_Ficha_Técnica {
+	font-size:10px;
+	line-height:12px;
+	color:#000;
+	text-align:left;
+}
+
 p.link-btn {
 	font-weight:bold;
 	font-family:FF-OpenSans-Bold,"Open Sans",sans-serif;
@@ -2397,14 +2466,14 @@ p.link-btn {
 	text-align:center;
 }
 
-p.Corpo_Ficha_Técnica {
+p.A5-V_-_Corpo_Ficha_Técnica {
 	font-size:10px;
 	line-height:12px;
 	color:#000;
 	text-align:left;
 }
 
-p.Num_pag {
+p.A5-V_-_Num_pag {
 	font-family:"Open Sans",sans-serif;
 	font-size:11px;
 	line-height:13.2px;
@@ -2580,7 +2649,7 @@ p.h2-secoes-complementares {
 	text-align:left;
 }
 
-h2.h2 {
+h2.A5-V_-_h2 {
 	font-weight:bold;
 	font-family:FF-OpenSans-Bold,"Open Sans",sans-serif;
 	font-size:22px;
@@ -2739,7 +2808,7 @@ p.Corpo_Sumario {
 	text-align:left;
 }
 
-p.Ficha_catalografica {
+p.A5-V_-_Ficha-Catalografica_-_Ficha_catalografica {
 	font-family:"Open Sans",sans-serif;
 	font-size:9px;
 	line-height:10.8px;
@@ -2915,6 +2984,10 @@ span.autoCharStyle1 {
 	font-family:Roboto,sans-serif;
 }
 
+strong.mobile_-_bold {
+	font-weight:bold;
+}
+
 a.hyperlink-pracas {
 	font-family:"Open Sans",sans-serif;
 	font-size:12px;
@@ -2949,7 +3022,7 @@ span.bold-12 {
 	color:#000;
 }
 
-strong.bold {
+strong.A5-V_-_bold {
 	font-weight:bold;
 }
 
